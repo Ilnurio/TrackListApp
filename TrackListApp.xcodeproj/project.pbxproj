@@ -60,17 +60,49 @@
 		46F0437729FC463C001B0E7A /* TrackListApp */ = {
 			isa = PBXGroup;
 			children = (
-				46F0437829FC463C001B0E7A /* AppDelegate.swift */,
-				46F0437A29FC463C001B0E7A /* SceneDelegate.swift */,
-				46F0438C29FC56FD001B0E7A /* TrackListViewController.swift */,
-				46F0439029FD5DFF001B0E7A /* TrackDetailsViewController.swift */,
-				46F0438E29FD45CA001B0E7A /* Track.swift */,
-				46F0437E29FC463C001B0E7A /* Main.storyboard */,
+				46F043B229FD821F001B0E7A /* Models */,
+				46F043B329FD8253001B0E7A /* ViewControllers */,
+				46F043B429FD82A1001B0E7A /* Storyboards */,
+				46F043B529FD82DB001B0E7A /* App */,
 				46F0438129FC463D001B0E7A /* Assets.xcassets */,
-				46F0438329FC463D001B0E7A /* LaunchScreen.storyboard */,
 				46F0438629FC463D001B0E7A /* Info.plist */,
 			);
 			path = TrackListApp;
+			sourceTree = "<group>";
+		};
+		46F043B229FD821F001B0E7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46F0438E29FD45CA001B0E7A /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46F043B329FD8253001B0E7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46F0438C29FC56FD001B0E7A /* TrackListViewController.swift */,
+				46F0439029FD5DFF001B0E7A /* TrackDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		46F043B429FD82A1001B0E7A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				46F0438329FC463D001B0E7A /* LaunchScreen.storyboard */,
+				46F0437E29FC463C001B0E7A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		46F043B529FD82DB001B0E7A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				46F0437829FC463C001B0E7A /* AppDelegate.swift */,
+				46F0437A29FC463C001B0E7A /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
